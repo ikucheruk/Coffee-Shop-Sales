@@ -28,9 +28,11 @@ The dataset contains coffee shop transactions with the following variables:
 - `product_type` — product subcategory
 - `product_detail` — detailed product description
 
+
 ## 📚 Data Source
 Data obtained from [Kaggle: Coffee Shop Sales Dataset](https://www.kaggle.com/code/ahmedabbas757/coffee-shop-sales/input)  
 The dataset contains 149,116 rows and 11 columns.  
+
 
 ## 🔍 Analysis / Workflow
 The analysis followed these main steps:
@@ -38,6 +40,13 @@ The analysis followed these main steps:
 2. **EDA** – explore basic stats, visualize distributions, detect outliers  
 3. **Data Transformation** – adjust data types, add features (weekday, month, hour)  
 4. **Sales Analysis** – review total sales, average check, and key time-based trends
+
+
+## 🧰 Tools & Technologies
+- **Python** (pandas, matplotlib, seaborn)
+- **Tableau** – dashboard visualization
+- **Jupyter Notebook** – analysis and reporting
+
 
 ## 💡 Key Insights
 - **Overall Performance:** Sales across the coffee shop network are generally stable, with only minor drops around holidays (e.g., Memorial Day).  
@@ -48,6 +57,7 @@ The analysis followed these main steps:
   - *Lower Manhattan* – morning-dominated activity (peak at **7:00 AM**), minimal evening demand.  
 - **Average Check:** Stable across all days; *Lower Manhattan* slightly leads in average order value.  
 - **Product Mix:** Coffee and tea generate the majority of sales, followed by bakery. Secondary categories, though smaller in share, enhance variety and help boost the average check.
+
 
 ## 📊 Tableau Dashboards  
 Here are a few screenshots of the Tableau dashboards.  
